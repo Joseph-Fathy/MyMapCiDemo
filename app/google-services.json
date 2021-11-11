@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "388487182616",
+    "project_id": "mymapcidemo",
+    "storage_bucket": "mymapcidemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388487182616:android:e5debfd5fc5e90398d466d",
+        "android_client_info": {
+          "package_name": "com.jogayed.mymap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388487182616-8fm6i1locp7i28pt8ou37f2sf9v8re5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbeizZ9kKTLvsvtEOYgynIlxtDIBc1fJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388487182616-8fm6i1locp7i28pt8ou37f2sf9v8re5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

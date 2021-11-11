@@ -36,5 +36,5 @@ jobs:
           appId: ${{secrets.FIREBASE_APP_ID}}
           token: ${{secrets.FIREBASE_TOKEN}}
           groups: testers
-          releaseNotes: "signed apk v 2"
-          file: app/build/outputs/apk/release/app-release-unsigned-signed.apk
+          releaseNotes: "signed apk v 3"
+          file: ${{steps.sign_app.outputs.signedReleaseFile}}

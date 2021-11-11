@@ -22,11 +22,12 @@ jobs:
       - name: upload-apk
         uses: actions/upload-artifact@v2
         with:
+          name: Build 0.1 apk
           path: app/build/outputs/apk/debug/app-debug.apk
 
 
   unit_test:
-    needs: [build]
+    needs: [ build ]
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -38,4 +39,5 @@ jobs:
       - name: upload test reports
         uses: actions/upload-artifact@v2
         with:
+          name: testingResultReport
           path: app/build/reports/tests/testDebugUnitTest/index.html
